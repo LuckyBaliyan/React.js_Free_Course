@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+*{
+    user-select: none;
+}
+
+body{
+    background-color: #121111;
+    font-family: "Neue Montreal";
+}
+
+
+

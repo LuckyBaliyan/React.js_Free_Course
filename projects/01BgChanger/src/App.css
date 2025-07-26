@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+*{
+    user-select: none;
+}
+
+@layer components{
+    .btn{
+        @apply outline-none px-4 rounded-full text-xl  py-1 shadow cursor-pointer transition-all ease-out
+    }
+}
+
+.btn:hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: contrast(130%);
+    box-shadow: 0 0 12px #bdbaba;
+}
