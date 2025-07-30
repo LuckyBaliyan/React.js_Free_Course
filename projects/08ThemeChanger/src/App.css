@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.Card {
+  border:none;
+}
+
+body.dark .Card{
+  background-color: #000;
+}
+
+body.light .Card{
+  background-color: #989afc;
+}
